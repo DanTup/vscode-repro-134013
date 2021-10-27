@@ -10,17 +10,10 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:vscode-repro-dc2569.helloWorld"
+		"*"
 	],
 	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "vscode-repro-dc2569.helloWorld",
-				"title": "Hello World"
-			}
-		]
-	},
+	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
